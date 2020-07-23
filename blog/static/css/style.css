@@ -5,7 +5,7 @@
 
 
 body {
-    background: url(/blog/static/img/banner3.jpg);
+    background: gray;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
