@@ -1,8 +1,111 @@
-<h1>GAMERS DE TRUE</h1>
-<a href="https://www.instagram.com/antonio_saints/?hl=pt-br">Antonio Santos</a>
-<p>Werick Costa</p>
-<p>Matheus Henrique</p>
-<p>Micael</p>
-<p>Victor Luiz</p>
-<p>Eduardo Rezende</p>
-<p>Felipe Rezende</p>
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMERS DE TRUE</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<body>
+
+    <h1>GAMERS DE TRUE</h1>
+    <nav class="topo">
+        <div class="itens">
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Jogos</a></li>
+    <!-- Sub menu dos jogos-->
+                    <ul class="active">
+                        <li><a>Minecraft</a></li>
+                        <li><a>Fortnite</a></li>
+                        <li><a>AmongUs</a></li>
+                    </ul>
+    <!--Fim do submenu dos jogos-->
+                <li><a href="#ct">Conteúdos</a></li>
+                <li><a href="https://aminoapps.com/c/corporacaonerd/page/blog/o-que-e-ser-um-gamer/KW1p_LVeIMuRBNjLXaNmk4jlL0ELPY7G0Q3" target="_blank" >Ser um Gamer</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Meio da página-->
+    <div id="meio">
+        <div class="container">
+            <div class="card">
+                <div class="circulo">
+                    <h2>01</h2>
+                </div>
+                <div class="content">
+                    <p>Programação de lives, horários de discord e mais.</p>
+                    <a href="#">Ler mais.</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="circulo">
+                    <h2>01</h2>
+                </div>
+                <div class="content">
+                    <p>Programação de lives</p>
+                    <a href="#">Leia mais...</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="circulo">
+                    <h2>01</h2>
+                </div>
+                <div class="content">
+                    <p>Programação de lives</p>
+                    <a href="#">Leia mais...</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--Meio da página-->
+    <!--informações-->
+    <h2 id="ct">Conteúdo</h2>
+    <section class="flex">
+   
+        <div>
+            <img src="/blog/img/banner2.png">
+            <a href="#">Nosso canal.</a>
+        </div>
+        <div>
+            <img src="/blog/img/banner2.png">
+            <a href="#">Nosso canal.</a>
+        </div>
+        <div>
+            <img src="/blog/img/banner3.jpg">
+            <a href="#">Nosso canal.</a>
+        </div>
+        <div>
+            <img src="/blog/img/logo.jpg">
+            <a href="#">Nosso canal.</a>
+        </div>
+    </section>
+    <div id="informacoes">
+        <h2> Referências</h2>
+        <p>A maioria dos dados e sites de notícias são de terceiros, logo, deixamos claro que se trata apenas de uma página de 
+            interação entre amigos, para dirversão e informações.
+        </p>
+
+
+    </div>
+    <!--informações-->
+
+</body>
+<footer>
+    
+    <div id="pe">
+        <h4>2019 - 2020 © GAMERS DE TRUE | Todos os direitos reservados. </h4>
+
+    </div>
+    <div id="redes">
+
+    </div>
+
+</footer>
+</html>
