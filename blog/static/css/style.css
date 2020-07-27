@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(103,44,41,1) 49%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgb(30, 25, 31) 0%, rgb(36, 24, 39) 49%, rgb(26, 8, 31) 100%);
 }
 h1 {
     font-family: Arial black;
@@ -11,7 +11,8 @@ h1 {
     filter:alpha(opacity=60);
     opacity: 0.8;
     -moz-opacity:0.8;
-    -webkit-opacity:0.8;;
+    -webkit-opacity:0.8;
+    
 }
 ul {
     list-style-type: none;
@@ -23,6 +24,9 @@ ul {
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
+    border: solid 2px gray;
+
+
     
 }
 
@@ -41,9 +45,11 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(56, 56, 56);
     border-radius: 10px;
+    transition: 0.6s;
 }
 
 li.dropdown {
@@ -75,25 +81,110 @@ li.dropdown {
 .dropdown-content a:hover{
     background-color: #a89a9a;
     border-radius: 10px;
-
+    transition: 0.6s;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    transition: 0.6s;
+
  
 }
 
 .novo {
+    display: flexbox;
     width: auto;
     height: auto;
-    min-height: 300px;
     margin: 0;
     margin-top: 10px;
-    background-color: Black;
-    display: flexbox;
     border-radius: 10px;
+    border: solid 2px gray;
+    background: none;
+    background: cover;
+    background-position: center;
+
+
 }
 
+
+.videos {
+
+    background: url(../img/banner.jpg);
+    background-position: center;
+    
+
+    margin: 20px;
+    display: block;
+    border: solid 1px white;
+    max-width:auto;
+    min-width: 200px;
+    border-radius: 20px;    
+
+
+}
+
+.videos2 {
+    background: url(../img/among.webp);
+    background-position: center;
+    margin: 20px;
+    display: block;
+    border: solid 1px white;
+    max-width: auto;
+    min-width: 200px;
+    border-radius: 20px; 
+}
+
+.videos3 {
+    background: url(../img/GTA.webp);
+    background-position: center;
+    margin: 20px;
+    display: block;
+    border: solid 1px white;
+    max-width: auto;
+    min-width: 200px;
+    border-radius: 20px;
+}
+.yt {
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+.novo p {
+    font-family: arial;
+    font-weight: 600;
+    margin: 20px;
+    text-align: justify;
+    color: white;
+
+}
+
+.novo h2 {
+    font-family: arial;
+    font-size: 40px;
+
+}
+
+.novo a {
+    text-decoration: none;
+    color: white;
+
+    font-family: arial;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+    display: block;
+    max-width: max-content;
+    border-radius: 30px;
+}
+
+.novo a:hover {
+    background-color: green;
+    color: white;
+    transition: 0.9s;
+}
 /*meio */
 
 
@@ -113,7 +204,8 @@ li.dropdown {
 img {
     max-width:100%;
     display: block;
-    box-shadow: 0 5px 5px wheat;
+    box-shadow: 0 2px 2px gray;
+    max-height: auto;
 
 }
 
@@ -133,13 +225,24 @@ img {
 }
 .flex a {
     font-family: arial;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 600;
     margin: auto;
     list-style: none;
     text-decoration: none;
-    color: white;
-    padding: 0;
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
     text-align: center;
+    background-color: gray;
+    display: block;
+    max-width: max-content;
+    border-radius: 20px;
+}
+.flex a:hover {
+    background-color: green;
+    color: white;
+    transition: 0.9s;
 }
 
 .flex img {
@@ -152,6 +255,7 @@ img {
     background-color: black;
     height: auto;
     border-radius: 10px;
+    border: solid 2px white;
 
 
 }
@@ -167,6 +271,8 @@ img {
     margin: auto;
     padding: 10px;
     font-family: arial;
+    font-weight: 600;
+    text-align: justify;
 }
 
 .pe h5 {
@@ -177,5 +283,7 @@ img {
     background-color: black;
     margin-top: 10px;
     border-radius: 10px;
+    border: solid 2px white;
 }
+
 
